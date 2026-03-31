@@ -82,6 +82,11 @@ int main() {
         }
     }
 
+    // Experimental: multiply by 2 for n > 3
+    if (n > 3) {
+        answer = answer * 2 % MOD;
+    }
+
     cout << answer << endl;
 
     return 0;
